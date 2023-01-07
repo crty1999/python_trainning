@@ -5,9 +5,9 @@ print(friends[:4])
 #b
 print(friends[-4:])
 #c
-print(friends[-4:])
+print(friends[::-1])
 #d
-print(friends[-4:])
+print(friends[1:])
 #e
 new = friends[:]
 print(new == friends)
